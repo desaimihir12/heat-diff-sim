@@ -4,10 +4,10 @@ This is the repository for the lab 9 of the course CS302 Modelling and Simulatio
 * Instructor - Prof. Mukesh Tiwari
 * The Team - Mihir Desai (201801033) and Prayush Dave (201801021)
 ## File structure
-* heat-diff-model.ipynb - Jupyter Notebook for the model and implementations of the Project 1-4 from Module 10.2 from the textbook<sup>1</sup>.
-* heat-diff-driver.ipynb - Notebook to run the custom test case for the heat diffusion of metal rod problem. Click on this colab link to use the code.
-* anim1.mp4 - Video of the first simulation of the problem.
-## Instructions to run the code
-* Write the instructions to run the code.
+* model.ipynb - Jupyter Notebook for the model and implementations of the Project 1-4 and 9 from Module 10.2 from the textbook<sup>1</sup>.
+* animations-guide - Text file which contains the descriptions of the animation videos of the simulations performed with inital conditions and the cases. All the videos are titled `anim-<number>`.
+* Files titled `plot<number>` are the plots from the implementations saved.
+## Instructions to access the notebook
+* model.ipynb contains the implementations in jupyter notebook. [Click here](https://colab.research.google.com/drive/1yvBlmYkPWOhG7639NSUGqHYCwR8e6KmB?usp=sharing) for the colab link for the same notebook uploaded there, if in any case the .ipynb is not accessible.
 ## References
 * <sup>1</sup>Angela B. Shiflet. 2006. Introduction to Computational Science: Modeling and Simulation for the Sciences. Princeton University Press, USA.
