@@ -1,0 +1,70 @@
+Size of grid = m * n = 10 * 30
+diffusion_rate (r) = 0.1
+hot_sites = (5,0), (6,0), (7,0), (0,20)
+cold_sites = (9,8), (9,9), (9,10), (9,11), (9,12)
+
+anim-1 
+AMBIENT = 25
+HOT = 50
+COLD = 0
+Diffusion : Moore Neighbourhood
+Boundary : Reflective
+
+anim-2
+AMBIENT = 25
+HOT = 50
+COLD = 0
+Diffusion : Moore Neighbourhood
+Boundary : Absorbing at const = 0
+
+anim-3
+AMBIENT = 25
+HOT = 50
+COLD = 0
+Diffusion : Moore Neighbourhood
+Boundary : Absorbing at const = 25
+
+anim-4
+AMBIENT = 25
+HOT = 50
+COLD = 0
+Diffusion : Moore Neighbourhood
+Boundary : Absorbing at const = 50
+
+anim-5
+AMBIENT = 25
+HOT = 50
+COLD = 0
+Diffusion : Moore Neighbourhood
+Boundary : Periodic
+
+anim-6
+AMBIENT = 25
+HOT = 50
+COLD = 0
+Diffusion : Weighted as per Project 3 (Moore Neighbourhood)
+Boundary : Reflective
+
+anim-7
+AMBIENT = 100
+Diffusion : Moore Neighbourhood
+Boundary : Absorbing at const = 25
+
+anim-8
+AMBIENT = -50
+Diffusion : Moore Neighbourhood
+Boundary : Absorbing at const = 25
+
+anim-9
+AMBIENT = 25
+HOT = 50
+COLD = 0
+Diffusion : Stochastic as per Project 9 (Moore Neighbourhood)
+Boundary : Reflective
+
+anim-10 
+AMBIENT = 25
+HOT = 50
+COLD = 0
+Diffusion : Von Neumann Neighbourhood
+Boundary : Reflective
